@@ -11,6 +11,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  base:'/Soren-Shop/',
   server:{
     allowedHosts:true,
     host:true,
