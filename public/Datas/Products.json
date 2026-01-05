@@ -1,0 +1,32 @@
+{
+  "onSalePeoducts":[
+    {
+      "id":1,
+      "title":"فیلتر ماشین",
+      "img":"filter.jpg",
+      "price":"۴۵",
+      "sale":"۳۵"
+    },
+    {
+      "id":2,
+      "title":"فیلتر خودرو",
+      "img":"filter.jpg",
+      "price":"۳۵",
+      "sale":"۹۵"
+    },
+    {
+      "id":3,
+      "title":"تایر هانکوک",
+      "img":"tires.jpg",
+      "price":"۷۷",
+      "sale":"۷۵"
+    },
+    {
+      "id":4,
+      "title":"موتور خودرو",
+      "img":"oil.jpg",
+      "price":"۸۶",
+      "sale":"۸۰"
+    }
+  ]
+}
