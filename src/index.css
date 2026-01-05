@@ -15,5 +15,5 @@
 }
 @font-face {
   font-family: 'vazir' ;
-  src: url('Fotns/Vazirmatn/Vazirmatn-VariableFont_wght.ttf');
+  src: url('${import.meta.env.BASE_URL}Fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf') format('truetype');
 }

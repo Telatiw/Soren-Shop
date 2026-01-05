@@ -19,11 +19,11 @@ className = "w-full h-85 flex flex-col"
 slidesPerView = { 1}
 dir = "ltr"
   >
-      <SwiperSlide className=" bg-center bg-[url('banner1.jpeg')] bg-cover">
+      <SwiperSlide  className=" bg-center bg-cover" style={{backgroundImage:`url(${import.meta.env.BASE_URL}banner1.jpeg)`}}>
       </SwiperSlide>
-      <SwiperSlide className=" bg-center bg-[url('banner2.jpeg')] bg-cover">
+      <SwiperSlide  className=" bg-center bg-cover" style={{backgroundImage:`url(${import.meta.env.BASE_URL}banner2.jpeg)`}}>
       </SwiperSlide>
-      <SwiperSlide className=" bg-center bg-[url('banner3.jpeg')] bg-cover">
+      <SwiperSlide  className=" bg-center bg-cover" style={{backgroundImage:`url(${import.meta.env.BASE_URL}banner3.jpeg)`}}>
       </SwiperSlide>
     </Swiper >
   );
