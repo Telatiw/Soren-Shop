@@ -7,7 +7,7 @@ export default function SaleSection() {
   const [products, setProducts] = useState([])
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('/Datas/Products.json')
+      const res = await fetch(`${import.meta.env.BASE_URL}Datas/Products.json`)
       const datas = await res.json()
       setProducts(datas.onSalePeoducts
       )
